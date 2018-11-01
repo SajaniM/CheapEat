@@ -1,19 +1,4 @@
-#Tue Oct 30 16:17:05 CET 2018
-path.1=classes.dex
+#Thu Nov 01 11:22:54 CET 2018
+base.0=C\:\\Users\\Nicolas\\Desktop\\CheapEat\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\95
 path.0=classes.dex
-renamed.5=classes6.dex
-renamed.4=classes5.dex
-renamed.3=classes4.dex
-renamed.2=classes3.dex
-renamed.1=classes2.dex
 renamed.0=classes.dex
-base.5=E\:\\Projet CheapEat\\CheapEat\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\93
-base.4=E\:\\Projet CheapEat\\CheapEat\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\91
-base.3=E\:\\Projet CheapEat\\CheapEat\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\88
-base.2=E\:\\Projet CheapEat\\CheapEat\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\89
-base.1=E\:\\Projet CheapEat\\CheapEat\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\92
-base.0=E\:\\Projet CheapEat\\CheapEat\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\90
-path.5=classes.dex
-path.4=classes.dex
-path.3=classes.dex
-path.2=classes.dex

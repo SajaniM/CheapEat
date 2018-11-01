@@ -28,7 +28,8 @@ padding: 0;
 body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
-    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    -webkit-user-select: none;    /* prevent copy paste, to allow, change 'none' to 'text' */
+    position: relative;
     background-color:#FFFFFF;
 
     
@@ -40,6 +41,7 @@ body {
     width:100%;
 }
 header{
+    position: relative;
     background-color: #f79a1d;
     height: 50px;
     width: : 100%;
@@ -47,10 +49,28 @@ header{
     color: white;
     padding: 5px;
     background-size: contain;
+    left: 0;
+    right: 0;
+    top : 0;
+}
+footer{
+    position: fixed;
+    background-color: #F7F5F4;
+    bottom:  0;
+    left: 0;
+    right: 0;
+}
+#footer-container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }
 p{
     text-align: center;
 }
+
+.ico{
+    position: relative;
 
 }
 
