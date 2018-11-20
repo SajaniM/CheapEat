@@ -44,3 +44,22 @@ var app = {
 };
 
 app.initialize();
+
+(function(){
+    const config=
+    {
+        apiKey: "AIzaSyBHd5PKoGSQbpWISrVHBKeP_Yq_EmDiaGA",
+        authDomain: "cheapeat-firebase.firebaseapp.com",
+        databaseURL: "https://cheapeat-firebase.firebaseio.com",
+        storageBucket: "cheapeat-firebase.appspot.com",
+    };
+
+    firebase.initializeApp(config);
+
+    const preObject=document.getElementById('objet'); // création de l'élément a référencer
+    const dbRefObject = firebase.database().ref().child('objet'); // creation de la reference
+    dbRefObject.on('value', snap => console.log(snap.val())); //synchronisation da la reference avec firebase
+
+
+ 
+}());
